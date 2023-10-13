@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="TE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The RentHub</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="logo"><a href="index.html" class="logo">
+            <img src="images/renthub-high-resolution-logo-color-on-transparent-background.png"  >
+        </a></div>
+        <div class="nav-button">
+                <ul class="navmenu">
+                        <li><a href="#" class="button">Home</a></li>
+                        <li class="menu-item">
+                            <!-- <a class="sub-btn" href="#">Category <i class="fas fa-angle-down"></i></a> -->
+
+                        <li class="dropdown">
+                            <a href="#" class="button">Category</a>
+                            <div class="dropdown-content">
+                                <a href="#">Vehicle</a>
+                                <a href="#">House</a>
+                                <a href="#">Dress</a>
+                                <a href="#">AV Products</a>
+                                <a href="#">Photography</a>
+                                <a href="#">Entertainment</a>
+                                <a href="#">Security</a>
+                                <a href="#">Office</a>
+                                <a href="#">Medical</a>
+                            </div>
+                        </li>
+                <!-- <ul class="sub-menu">
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Vehicle <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">House <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Dress <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Camera <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Entertainment <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Security <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Office <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more">
+                            <a class="more-btn" href="#">Medical <i class="fas fa-angle-right"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Item 01</a></li>
+                                <li class="more-item"><a href="#">Item 02</a></li>
+                                <li class="more-item"><a href="#">Item 03</a></li>
+                                <li class="more-item"><a href="#">Item 04</a></li>
+                                <li class="more-item"><a href="#">Item 05</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                </li>
+                <li><a href="#"class="button">About</a></li>
+                <li><a href="#"class="button">Contact</a></li>
+            </ul>
+            </div>
+
+
+            <div class="nav-icon">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <a href="#"><i class='bx bx-user'></i></a>
+                <a href="#"><i class='bx bx-cart'></i></a>
+
+                <div class="bx bx-menu" id="menu-icon">
+                </div>
+            </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(./images/4.jpeg);">
+                <div class="content">
+                    <div class="name">Luxury Cars</div>
+                    <div class="des">Luxury cars exude opulence, boasting cutting-edge technology, comfort, and performance.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/1.jpeg);">
+                <div class="content">
+                    <div class="name">Wedding Dresses</div>
+                    <div class="des">Wedding dresses symbolize love, style, and unique expressions of brides.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/2.jpeg);">
+                <div class="content">
+                    <div class="name">Entertainment</div>
+                    <div class="des">Entertainment captivates with diverse genres, from film to live performances.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/3.jpeg);">
+                <div class="content">
+                    <div class="name">Wedding Dresses</div>
+                    <div class="des">Wedding dresses symbolize love, style, and unique expressions of brides.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/5.jpeg);">
+                <div class="content">
+                    <div class="name">Sedan Cars</div>
+                    <div class="des">Sedan cars offer spacious interiors, fuel efficiency, and comfortable commuting.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/6.jpeg);">
+                <div class="content">
+                    <div class="name">Luxury House</div>
+                    <div class="des">Luxury houses exude opulence, offering spacious interiors, lavish amenities, and breathtaking views.
+                    </div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/7.jpeg);">
+                <div class="content">
+                    <div class="name">Camera</div>
+                    <div class="des">Cameras capture moments, from family gatherings to breathtaking landscapes, preserving memories.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/8.jpeg);">
+                <div class="content">
+                    <div class="name">Party Frocks</div>
+                    <div class="des">Party frocks dazzle with vibrant colors, sequins, and elegant designs.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/9.jpeg);">
+                <div class="content">
+                    <div class="name">Lenses</div>
+                    <div class="des">Camera lenses capture light, shaping vivid images with precision and clarity.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/10.jpeg);">
+                <div class="content">
+                    <div class="name">AV Products</div>
+                    <div class="des">Autonomous vehicles (AVs) revolutionize transportation, safety, and urban planning worldwide.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/11.jpg);">
+                <div class="content">
+                    <div class="name">Medical Products</div>
+                    <div class="des">Medical products ensure health, from bandages to vaccines, saving countless lives.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/12.jpg);">
+                <div class="content">
+                    <div class="name">Apple Products</div>
+                    <div class="des">Apple products are known for their sleek design, performance, and innovation.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./images/13.jpeg);">
+                <div class="content">
+                    <div class="name">Security</div>
+                    <div class="des">Enhancing digital security is vital to protect sensitive information and systems.</div>
+                    <button>Rent</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    <h2>Popular Categories</h2>
+    <div class="gallery">
+
+        <div class="cont">
+            <img src="./images/a.jpeg">
+            <h3>BMW i8</h3>
+            <p>The BMW i8, a hybrid sports car, seamlessly combines eco-friendliness and performance, showcasing cutting-edge technology and captivating design.</p>
+            <h6>Rs.15000(Per day)</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-1">Rent Now</button>
+        </div>
+
+        <div class="cont">
+            <img src="./images/b.jpeg">
+            <h3>Kandiyan Saree</h3>
+            <p>The Kandyan saree, a traditional Sri Lankan attire, is characterized by its elegant drapery and vibrant colors, reflecting cultural richness.</p>
+            <h6>Rs.8000(Per day)</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-2">Rent Now</button>
+        </div>
+
+        <div class="cont">
+            <img src="./images/c.jpeg">
+            <h3>Full Stage Setup</h3>
+            <p>A full stage setup includes lighting, sound systems, microphones, instruments, backdrops, props, and skilled technicians to create a captivating performance environment.</p>
+            <h6>Rs.50000(Per day)</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-3">Rent Now</button>
+        </div>
+
+        <div class="cont">
+            <img src="./images/d.jpeg">
+            <h3>Walkie-Talkie</h3>
+            <p>A walkie-talkie, a handheld two-way radio device, enables short-distance communication via radio waves, commonly used in various industries and hobbies.</p>
+            <h6>Rs.6000(Per day)</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-4">Rent Now</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <a href="index.html"><img class="logo" src="./images/renthub-high-resolution-logo-color-on-transparent-background.png"></a>
+                <p>
+                    "Exploring new horizons, one destination at a time."
+                </p>
+            </div>
+            <div class="col">
+                <h3>Contact<div class="underline"><span></span></div></h3>
+                <p>7/B Gallage Mawatha,</p>
+                <p>Poregedara,</p>
+                <p>Padukka.</p>
+                <p class="email-id">mudithmilinda@gmail.com</p>
+                <h4>+94 - 702877313</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Abount Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3></h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-pinterest"></i>  
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - All Rights Reserved by Group 20</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
